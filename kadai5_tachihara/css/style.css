@@ -315,8 +315,21 @@ footer dt{
     }
 }
 @media screen and (max-width: 768px){
+    #aboutus,
+    #menu,
+    #gallery,
+    #event,
+    #access{
+        padding-top: 80px;
+    }
+    .section-heading{
+        font-size: 32px;
+    }
     .logo{
     width: 244px;
+    }
+    .concept{
+    padding-top: 126px;
     }
     #aboutus{
         flex-direction: column;
@@ -347,6 +360,7 @@ footer dt{
         overflow: hidden;
         text-overflow: ellipsis;
         min-width: 0;
+        font-size: 16px;
     }
     #access iframe{
         height: 200px;
