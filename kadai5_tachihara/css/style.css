@@ -362,6 +362,9 @@ footer dt{
         min-width: 0;
         font-size: 16px;
     }
+    .event-date{
+    font-size: 16px;
+    }
     #access iframe{
         height: 200px;
     }
